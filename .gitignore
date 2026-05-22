@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+.coverage
+htmlcov/
+.pytest_cache/
+.DS_Store
+
+# Vendor firmware and Windows utility — do not redistribute; download from https://www.aimtti.com/support
+firmware/*.hex
+firmware/windows/
+
+# Reverse-engineering working artifacts — kept local only
+investigation_artifacts/
+
+# Python dependencies
+# requirements.txt - committed to repo so users can pip install -r requirements.txt
